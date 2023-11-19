@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Header />
       <Routes>
-        <Route path='/' element={<Dashboard />}/>
+        <Route path='*' element={<Dashboard />}/>
         <Route path='/product/:id' element={<Product />}/>
         <Route path='/cart' element={<Cart />}/>
        
